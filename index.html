@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Slider Website</title>
+	<!-- Favicon Link -->
+	<link rel="shortcut icon" type="image/x-icon" href="Custom/img/phone.png">
+	<link rel="shortcut icon" type="image/x-icon" href="Custom/img/apple.png">
+	<!-- Font Awesome Link -->
+	<script src="https://kit.fontawesome.com/a739d7064a.js" crossorigin="anonymous"></script>
+	<!-- Google Font Link -->
+	  <!-- Poppins Font Link All Body -->
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	  <!-- Kalam Font Link Logo H1 Tag -->
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet"> 
+	  <!-- Ubuntu Font Link H2 Tag -->
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+	<!-- Custom File Link -->
+	<link rel="stylesheet" href="Custom/css/style.css">
+	<link rel="stylesheet" href="Custom/css/responsive.css">
+	<!-- Vendors File Link -->
+	<link rel="stylesheet" href="Vendors/css/gird.css">
+	<link rel="stylesheet" href="Vendors/css/normalize.css">
+	<!-- Owl Carousel Css Cdn Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<!-- Animate Wow Cdn Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- Popup Image Gallery Cdn Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+	<!-- Slick Css Cdn Link By Client Section -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  </head>
+  <body>
+  
+  <!-- START LOADING SECTION -->
+  
+  <div id="preloader">
+    <div id="status">
+	  <div class="loading">
+	    <div class="obj"></div>
+	    <div class="obj"></div>
+	    <div class="obj"></div>
+	    <div class="obj"></div>
+	    <div class="obj"></div>
+	    <div class="obj"></div>
+	    <div class="obj"></div>
+	    <div class="obj"></div>
+	  </div>
+	</div>
+  </div>
+  
+  <!-- END LOADING SECTION -->
+  
+  <!-- START HEADER SECTION -->
+  
+  <header id="home">
+    <nav>
+	  <div class="row">
+	    <a href="index.html" class="logo">Mehrab</a>
+		<ul class="main-nav">
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#about">About</a></li>
+		  <li><a href="#services">Services</a></li>
+		  <li><a href="#team">Team</a></li>
+		  <li><a href="#work">Work</a></li>
+		  <li><a href="#client">Client</a></li>
+		  <li><a href="#faq">Faq</a></li>
+		  <li><a href="#blog">Blog</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="mobile-menu">
+		  <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+		  <div id="myNav" class="overlay">
+		    <a href="javascript:void(0)" onclick="closeNav()" class="closeBtn"><i class="fas fa-times"></i></a>
+			<div class="overlay-content">
+			  <a onclick="closeNav()" href="#home">Home</a>
+			  <a onclick="closeNav()" href="#about">About</a>
+			  <a onclick="closeNav()" href="#services">Services</a>
+			  <a onclick="closeNav()" href="#team">Team</a>
+			  <a onclick="closeNav()" href="#work">Work</a>
+			  <a onclick="closeNav()" href="#client">Client</a>
+			  <a onclick="closeNav()" href="#faq">Faq</a>
+			  <a onclick="closeNav()" href="#blog">Blog</a>
+			  <a onclick="closeNav()" href="#contact">Contact</a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</nav>
+	<div class="owl-carousel owl-theme">
+	  <div class="slide slide-1">
+	    <div class="row">
+		  <div class="slide-content">
+		    <h1 class="wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Welcome To My Website</h1>
+			<p class="wow fadeInLeft"  data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+			<a href="#contact" class="btn btn-hero wow bounceInUp"  data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceInUp;">Contact</a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="slide slide-2">
+	    <div class="row">
+		  <div class="slide-content">
+		    <h1>Welcome To My Website</h1>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+			<a href="#contact" class="btn btn-hero">Contact</a>
+		  </div>
+		</div>
+	  </div>
+	 <div class="slide slide-3">
+	    <div class="row">
+		  <div class="slide-content">
+		    <h1>Welcome To My Website</h1>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+			<a href="#" class="btn btn-hero">Contact</a>
+		  </div>
+		</div>
+	  </div> 
+	</div>
+  </header>
+  
+  <!-- END HEADER SECTION -->
+  
+  <!-- START ABOUT SECTION -->
+  
+  <section class="about-section js--sticky-menu" id="about">
+    <div class="row">
+	  <div class="col span_1_of_2 wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+	    <div class="about-img">
+		  <img src="Custom/img/about.jpg" alt="about-img">
+		</div>
+	  </div>
+	  <div class="col span_1_of_2 wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	    <div class="row">
+		  <div class="tabs">
+		    <div class="tab-header">
+			  <div class="active">
+			    <i class="far fa-edit"></i> About
+			  </div>
+			  <div>
+			    <i class="fas fa-user-tie"></i> Skill
+			  </div>
+			  <div>
+			    <i class="far fa-chart-bar"></i> Services
+			  </div>
+			  <div>
+			    <i class="far fa-address-card"></i> Contact
+			  </div>
+			</div>
+			<div class="tab-indicator"></div>
+			<div class="tab-body">
+			  <div class="active about">
+			    <h3>Hello, I Am <span class="about-color">Mehrab Hossen</span></h3>
+				<span class="about-tittle">Professional Web Designer</span>
+				<p>Hi I'm Mehrab Hossen. I,m a Professional Web Designer. And I Have 2 Years Work Express. I'm Best Services For You. I Currently Work In The Fiverr Marketplace.</p>
+			  </div>
+			  <div class="skill">
+			    <h3>My Skill</h3>
+				<ul>
+				  <li><i class="fab fa-html5"></i> Html : 90%</li>
+				  <li><i class="fab fa-css3-alt"></i> Css : 85%</li>
+				  <li><i class="fab fa-js"></i> Javascript : 60%</li>
+				  <li><i class="fab fa-js"></i> Jquery : 50%</li>
+				  <li><i class="fab fa-bootstrap"></i> Bootstrap : 85%</li>
+				  <li><i class="fas fa-file-powerpoint"></i> Psd To Html : 85%</li>
+				  <li><i class="fab fa-wordpress"></i> Wordpress : 80%</li>
+				</ul>
+			  </div>
+			  <div class="services">
+			    <h3>Hi, I Am Best Services For You</h3>
+				<p>Hi IM Web Designer I have been working on this web design for the last one years.The service that I will give you, no one in the whole world can give you that service.</p>
+			  </div>
+			  <div class="contact">
+			    <h3>Contact</h3>
+				<ul>
+				  <li><i class="fas fa-map-marker-alt"></i> Address : Noakhali, Bangladesh</li>
+				  <li><i class="fas fa-phone-volume"></i> Phone Number : +12345678910</li>
+				  <li><i class="fas fa-envelope"></i> Email : Support@gmail.com</li>
+				  <li><i class="fas fa-globe"></i> <a href="http://mehrabhossen.ml/" target="blank">mehrabhossen.ml</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END ABOUT SECTION -->
+  
+  <!-- START SERVICES SECTION -->
+  
+  <section class="services-section" id="services">
+    <div class="row wow zoomIn"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>Our <span class="Tittle-text">S</span>ervices</h2>
+	  <p class="Littol-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices sapien vel quam luctus pulvinar.</p>
+	</div>
+	<div class="row">
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+	    <div class="services-area">
+		  <div class="services-box">
+		    <div class="services-content">
+			  <div class="front" style="background-image: url(Custom/img/front.jpg)">
+			    <div class="Inner">
+				  <i class="fas fa-desktop"></i>
+				  <h3>Web Design</h3>
+				</div>
+			  </div>
+			  <div class="back">
+			    <div class="Inner">
+				  <p>I Have been working in this sector for the last five years and served more than 1000 customers</p>
+				  <a href="#" class="btn btn-services">Order Now</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	    <div class="services-area">
+		  <div class="services-box">
+		    <div class="services-content">
+			  <div class="front" style="background-image: url(Custom/img/front.jpg)">
+			    <div class="Inner">
+				  <i class="fas fa-laptop-code"></i>
+				  <h3>Web Development</h3>
+				</div>
+			  </div>
+			  <div class="back">
+			    <div class="Inner">
+				  <p>I Have been working in this sector for the last five years and served more than 1000 customers</p>
+				  <a href="#" class="btn btn-services">Order Now</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+	    <div class="services-area">
+		  <div class="services-box">
+		    <div class="services-content">
+			  <div class="front" style="background-image: url(Custom/img/front.jpg)">
+			    <div class="Inner">
+				  <i class="fab fa-wordpress-simple"></i>
+				  <h3>Wordpress Theme Customization</h3>
+				</div>
+			  </div>
+			  <div class="back">
+			    <div class="Inner">
+				  <p>I Have been working in this sector for the last five years and served more than 1000 customers</p>
+				  <a href="#" class="btn btn-services">Order Now</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+	    <div class="services-area">
+		  <div class="services-box">
+		    <div class="services-content">
+			  <div class="front" style="background-image: url(Custom/img/front.jpg)">
+			    <div class="Inner">
+				  <i class="fab fa-intercom"></i>
+				  <h3>Psd To Html</h3>
+				</div>
+			  </div>
+			  <div class="back">
+			    <div class="Inner">
+				  <p>I Have been working in this sector for the last five years and served more than 1000 customers</p>
+				  <a href="#" class="btn btn-services">Order Now</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	 <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	    <div class="services-area">
+		  <div class="services-box">
+		    <div class="services-content">
+			  <div class="front" style="background-image: url(Custom/img/front.jpg)">
+			    <div class="Inner">
+				  <i class="fas fa-search"></i>
+				  <h3>Seo</h3>
+				</div>
+			  </div>
+			  <div class="back">
+			    <div class="Inner">
+				  <p>I Have been working in this sector for the last five years and served more than 1000 customers</p>
+				  <a href="#" class="btn btn-services">Order Now</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div> 
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+	    <div class="services-area">
+		  <div class="services-box">
+		    <div class="services-content">
+			  <div class="front" style="background-image: url(Custom/img/front.jpg)">
+			    <div class="Inner">
+				  <i class="fab fa-bootstrap"></i>
+				  <h3>Bootstrap</h3>
+				</div>
+			  </div>
+			  <div class="back">
+			    <div class="Inner">
+				  <p>I Have been working in this sector for the last five years and served more than 1000 customers</p>
+				  <a href="#" class="btn btn-services">Order Now</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div> 
+	</div>
+  </section>
+  
+  <!-- END SERVICES SECTION -->
+  
+  <!-- START TEAM SECTION -->
+  
+  <section class="team-section" id="team">
+    <div class="row wow zoomIn"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>Our <span class="Tittle-text">T</span>eam</h2>
+	  <p class="Littol-descipson">Meet You Team, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices sapien vel quam.</p>
+	</div>
+	<div class="row">
+	  <div class="Container">
+	    <div class="team-card wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+		  <div class="team-content">
+		    <div class="imgBx"><img src="Custom/img/team01.jpg" alt="team-01"></div>
+			<div class="contentBx">
+			  <h3>Someone Famous<span>Creative Designer</span></h3>
+			</div>
+		  </div>
+		  <ul class="sci">
+		    <li style="--i:1">
+			  <a href="#"><i class="fab fa-facebook-f"></i></a>
+			</li>
+			<li style="--i:2">
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			</li>
+			<li style="--i:3">
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			</li>
+		  </ul>
+		</div>
+		<div class="team-card wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+		  <div class="team-content">
+		    <div class="imgBx"><img src="Custom/img/team02.jpg" alt="team-02"></div>
+			<div class="contentBx">
+			  <h3>Someone Famous<span>Creative Designer</span></h3>
+			</div>
+		  </div>
+		  <ul class="sci">
+		    <li style="--i:1">
+			  <a href="#"><i class="fab fa-facebook-f"></i></a>
+			</li>
+			<li style="--i:2">
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			</li>
+			<li style="--i:3">
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			</li>
+		  </ul>
+		</div>
+		<div class="team-card wow fadeInLeft"  data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+		  <div class="team-content">
+		    <div class="imgBx"><img src="Custom/img/team03.jpg" alt="team-03"></div>
+			<div class="contentBx">
+			  <h3>Someone Famous<span>Creative Designer</span></h3>
+			</div>
+		  </div>
+		  <ul class="sci">
+		    <li style="--i:1">
+			  <a href="#"><i class="fab fa-facebook-f"></i></a>
+			</li>
+			<li style="--i:2">
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			</li>
+			<li style="--i:3">
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END TEAM SECTION -->
+  
+  <!-- START COUNTER SECTION -->
+  
+  <section class="counter-section">
+    <div class="row">
+	  <div class="col span_1_of_4 counter-box">
+	    <div class="counter-icon">
+		  <i class="fas fa-users"></i>
+		</div>
+		<h3 class="counter">969</h3>
+		<p>Happy Customers</p>
+	  </div>
+	  <div class="col span_1_of_4 counter-box">
+	    <div class="counter-icon">
+		  <i class="fas fa-thumbs-up"></i>
+		</div>
+		<h3 class="counter">229</h3>
+		<p>Complete Projects</p>
+	  </div>
+	  <div class="col span_1_of_4 counter-box">
+	    <div class="counter-icon">
+		  <i class="fas fa-code"></i>
+		</div>
+		<h3 class="counter">3000</h3>
+		<p>Lines Of Code</p>
+	  </div>
+	  <div class="col span_1_of_4 counter-box">
+	    <div class="counter-icon">
+		  <i class="fas fa-file-download"></i>
+		</div>
+		<h3 class="counter">225</h3>
+		<p>File Downloaded</p>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END COUNTER SECTION -->
+  
+  <!-- START WORK SECTION -->
+  
+  <section class="work-section" id="work">
+    <div class="row wow zoomIn"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>Our <span class="Tittle-text">W</span>ork</h2>
+	  <p class="Littol-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices sapien vel quam luctus pulvinar.</p>
+	</div>
+	<div class="row">
+	  <div class="portfolio-filter">
+	    <button type="button" data-filter="all">All</button>
+	    <button type="button" data-filter=".header">Header</button>
+	    <button type="button" data-filter=".services">Services</button>
+	    <button type="button" data-filter=".team">Team</button>
+	  </div>
+	</div>
+	<div class="row portfolio-container">
+	  <div class="col span_1_of_3 mix header">
+	    <div class="Box">
+		  <img src="Custom/img/port-01.jpg" alt="port-01" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Tittle">Header Video Section</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/port-01.jpg"><i class="far fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix header">
+	    <div class="Box">
+		  <img src="Custom/img/port-02.png" alt="port-02" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Tittle">Header Section</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/port-02.png"><i class="far fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix team">
+	    <div class="Box">
+		  <img src="Custom/img/port-03.jpg" alt="port-03" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Tittle">Team Section</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/port-03.jpg"><i class="far fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix team">
+	    <div class="Box">
+		  <img src="Custom/img/port-04.png" alt="port-04" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Tittle">Team Section</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/port-04.png"><i class="far fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix services">
+	    <div class="Box">
+		  <img src="Custom/img/port-05.png" alt="port-05" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Tittle">Services Section</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/port-05.png"><i class="far fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix services">
+	    <div class="Box">
+		  <img src="Custom/img/port-06.png" alt="port-06" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Tittle">Services Section</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/port-06.png"><i class="far fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END WORK SECTION -->
+  
+  <!-- START CLIENT SECTION -->
+  
+  <section class="client-section" id="client">
+    <div class="row wow zoomIn"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>Client <span class="Tittle-text">R</span>eview</h2>
+	  <p class="Littol-descipson">There are many variations of passages of Lorem Ipsum.</p>
+	</div>
+	<div class="row">
+	  <div id="Testimonial" class="section-padding">
+	    <div class="testimonial-container">
+		  <div class="slider">
+		    <div class="item">
+			  <div class="testimonial-item">
+			    <div class="quote">
+				  <img src="Custom/img/img.png" alt="tes-01">
+				</div>
+				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<img src="Custom/img/person1.jpg" alt="tes-01" class="user">
+				<h3>John Doe</h3>
+			  </div>
+			</div>
+			<div class="item">
+			  <div class="testimonial-item">
+			    <div class="quote">
+				  <img src="Custom/img/img.png" alt="tes-01">
+				</div>
+				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<img src="Custom/img/person2.jpg" alt="tes-02" class="user">
+				<h3>John Doe</h3>
+			  </div>
+			</div>
+			<div class="item">
+			  <div class="testimonial-item">
+			    <div class="quote">
+				  <img src="Custom/img/img.png" alt="tes-01">
+				</div>
+				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<img src="Custom/img/person3.jpg" alt="tes-03" class="user">
+				<h3>John Doe</h3>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END CLIENT SECTION -->
+  
+  <!-- START FAQ SECTION -->
+  
+  <section class="faq-section" id="faq">
+    <div class="row wow zoomIn"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>Frequently <span class="Tittle-text">a</span>sked questions</h2>
+	  <p class="Littol-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices sapien vel quam luctus pulvinar.</p>
+	</div>
+	<div class="row">
+	  <div class="accordion">
+	    <div class="contentBox wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+		  <h3 class="label">Do you need any reference Website?</h3>
+		  <div class="content">
+		    <p>Yes if you show me an example of your desired website it will be great and easy for me to design a new one for you.</p>
+		  </div>
+		</div>
+		<div class="contentBox wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+		  <h3 class="label">Which Technology will you use for Responsiveness of webpages?</h3>
+		  <div class="content">
+		    <p>I am using css and bootstrap according to Client need.</p>
+		  </div>
+		</div>
+		<div class="contentBox wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+		  <h3 class="label">Do you need logo or banner etc for my website?</h3>
+		  <div class="content">
+		    <p>Yes you need to send me your logo and banner.</p>
+		  </div>
+		</div>
+		<div class="contentBox wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+		  <h3 class="label">Can you design wordpress website?</h3>
+		  <div class="content">
+		    <p>Yes i can.</p>
+		  </div>
+		</div>
+		<div class="contentBox wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+		  <h3 class="label">Can i trust you?</h3>
+		  <div class="content">
+		    <p>Yes you can trust me.</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END FAQ SECTION -->
+  
+  <!-- START BLOG SECTION -->
+  
+  <section class="blog-section" id="blog">
+    <div class="row wow zoomIn"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>Our <span class="Tittle-text">B</span>log</h2>
+	  <p class="Littol-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices sapien vel quam luctus pulvinar.</p>
+	</div>
+	<div class="row">
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;" id="blog-01">
+	    <div class="post-slide">
+		  <div class="post-img">
+		    <img src="Custom/img/blog-1.jpg" alt="blog-01">
+			<span class="Icons">
+			  <img src="Custom/img/person1.jpg" alt="post-author">
+			</span>
+		  </div>
+		  <div class="post-review">
+		    <a href="#" class="post-tittle"><h3>Master These Awesome New Skills in March 2020</h3></a>
+			<ul class="post-bar">
+			  <li><i class="fas fa-calendar-alt"></i> January 12, 2021</li>
+			  <li><i class="fas fa-user"></i> Admin</li>
+			</ul>
+			<p class="post-descipson">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+			<a href="#" class="btn popup-btn btn-share">Share Now</a>
+		  </div>
+		</div>
+		<div class="popup-wrap">
+		  <div class="popup-box">
+		    <h3>Share Us!</h3>
+			<p>I Will Appreciate If You Make One Share Just</p>
+			<div class="post-social-icon">
+			  <a href="https://www.facebook.com" title="Bf"><i class="fab fa-facebook-f"></i></a>
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			  <a href="#"><i class="fab fa-whatsapp"></i></a>
+			  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<a href="javascript:void(0)" class="close-btn popup-close"><i class="fas fa-times"></i></a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" id="blog-02">
+	    <div class="post-slide">
+		  <div class="post-img">
+		    <img src="Custom/img/blog-2.jpg" alt="blog-02">
+			<span class="Icons">
+			  <img src="Custom/img/person2.jpg" alt="post-author">
+			</span>
+		  </div>
+		  <div class="post-review">
+		    <a href="#" class="post-tittle"><h3>Top WordPress Themes and Plugins for Hotels</h3></a>
+			<ul class="post-bar">
+			  <li><i class="fas fa-calendar-alt"></i> January 12, 2021</li>
+			  <li><i class="fas fa-user"></i> Admin</li>
+			</ul>
+			<p class="post-descipson">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+			<a href="#" class="btn popup-btn btn-share">Share Now</a>
+		  </div>
+		</div>
+		<div class="popup-wrap">
+		  <div class="popup-box">
+		    <h3>Share Us!</h3>
+			<p>I Will Appreciate If You Make One Share Just</p>
+			<div class="post-social-icon">
+			  <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			  <a href="#"><i class="fab fa-whatsapp"></i></a>
+			  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<a href="javascript:void(0)" class="close-btn popup-close"><i class="fas fa-times"></i></a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;" id="blog-03">
+	    <div class="post-slide">
+		  <div class="post-img">
+		    <img src="Custom/img/blog-3.jpg" alt="blog-03">
+			<span class="Icons">
+			  <img src="Custom/img/person3.jpg" alt="post-author">
+			</span>
+		  </div>
+		  <div class="post-review">
+		    <a href="#" class="post-tittle"><h3>The 20 Best Lightroom Presets You Need to Know</h3></a>
+			<ul class="post-bar">
+			  <li><i class="fas fa-calendar-alt"></i> January 12, 2021</li>
+			  <li><i class="fas fa-user"></i> Admin</li>
+			</ul>
+			<p class="post-descipson">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+			<a href="#" class="btn popup-btn btn-share">Share Now</a>
+		  </div>
+		</div>
+		<div class="popup-wrap">
+		  <div class="popup-box">
+		    <h3>Share Us!</h3>
+			<p>I Will Appreciate If You Make One Share Just</p>
+			<div class="post-social-icon">
+			  <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			  <a href="#"><i class="fab fa-whatsapp"></i></a>
+			  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<a href="javascript:void(0)" class="close-btn popup-close"><i class="fas fa-times"></i></a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END BLOG SECTION -->
+  
+  <!-- START CONTACT SECTION -->
+  
+  <section class="contact-section" id="contact">
+    <div class="row wow zoomIn"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2><span class="Tittle-text">C</span>ontact Us</h2>
+	  <p class="Littol-descipson">Chowmuhani, Noakhali, Bangladesh</p>
+	</div>
+	<div class="row wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	  <form action="#" method="POST">
+	    <div class="row">
+		  <div class="col span_1_of_2">
+		    <input type="text" placeholder="Your Name *" required>
+		  </div>
+		  <div class="col span_1_of_2">
+		    <input type="email" placeholder="Your Email *" required>
+		  </div>
+		 </div>
+		  <div class="row">
+		    <input type="text" placeholder="Your Subject *" required>
+		  </div>
+		  <div class="row">
+		    <textarea cols="30" rows="10" placeholder="Your Message *" required></textarea>
+		  </div>
+		  <div class="row">
+		    <input type="submit" value="Send Message" class="btn btn-submit">
+		  </div>
+		</div>
+	  </form>
+	</div>
+  </section>
+  
+  <!-- END CONTACT SECTION -->
+  
+  <!-- START FOOTER SECTION -->
+  
+  <footer class="footer-section">
+    <div class="row">
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+	    <div class="column-01">
+		  <div class="row">
+		    <h3>Contact Us</h3>
+		  </div>
+		  <div class="row">
+		    <div class="address-info">
+			  <ul>
+			    <li><i class="fas fa-map-marker-alt"></i> Noakhali, Bangladesh</li>
+				<li><i class="fas fa-phone-volume"></i> +12345678910</li>
+				<li><i class="fas fa-envelope"></i> support@gmail.com</li>
+				<li><i class="fas fa-globe"></i> <a href="http://mehrabhossen.ml/" target="blank">mehrabhossen.ml</a></li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="row">
+		    <div class="footer-social">
+			  <a href="#"><i class="fab fa-facebook-f"></i></a>
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	    <div class="column-02">
+		  <div class="row">
+		    <h3>Recent Post</h3>
+		  </div>
+		  <div class="row">
+		    <div class="recent-post">
+			  <ul>
+			    <li>
+				  <img src="Custom/img/blog-1.jpg" alt="blog-01">
+				  <a href="#blog-01"><h4>Master These Awesome New Skills in March 2020</h4></a>
+				</li>
+				<li>
+				  <img src="Custom/img/blog-2.jpg" alt="blog-02">
+				  <a href="#blog-02"><h4>The 20 Best Lightroom Presets You Need to Know</h4></a>
+				</li>
+				<li>
+				  <img src="Custom/img/blog-3.jpg" alt="blog-03">
+				  <a href="#blog-03"><h4>The 20 Best Lightroom Presets You Need to Know</h4></a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	 <div class="col span_1_of_3 wow fadeInLeft"  data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+	   <div class="column-03">
+	     <div class="row">
+		   <h3>Newsletter</h3>
+		 </div>
+		 <div class="row">
+		   <div class="subscribe-form">
+		     <form action="#" method="POST">
+			   <input type="email" placeholder="Your Email *" required>
+			   <input type="submit" value="Subscribe" class="btn btn-subscribe">
+			 </form>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+	</div>
+  </footer>
+  
+  <!-- END FOOTER SECTION -->
+  
+  <!-- START FOOTER BOTTOM SECTION -->
+  
+  <footer class="footer-bottom">
+    <div class="row">
+	  <div class="footer-img">
+	    <img src="Custom/img/Footer-Logo.png" alt="footer-logo">
+	  </div>
+	  <div class="copy-right">
+	    <p>Copyright &copy; 2021 <a href="index.html">Slider Website</a> All Right Reserved</p>
+	  </div>
+	</div>
+  </footer>
+  
+  <!-- END FOOTER BOTTOM SECTION -->
+  
+  <!-- START AGEUP SECTION -->
+  <button id="topBtn"><i class="fas fa-angle-up"></i></button>
+  <!-- END AGEUP SECTION -->
+  
+  <!-- Js File Link -->
+  <!-- Jquery Cdn Link By Google -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Owl Carousel Js Cdn Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Popup Image Gallery Js Cdn Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- Slick Js Cdn Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <!-- Vendors Js All File -->
+  <script src="Vendors/js/html5shiv-printshiv.min.js"></script>
+  <script src="Vendors/js/respond.min.js"></script>
+  <script src="Vendors/js/selectivizr.js"></script>
+  <!-- Owo Animated Js File -->
+  <script src="Vendors/js/wow.min.js"></script>
+  <!-- Sticky Menu + Counter Js File -->
+  <script src="Vendors/js/jquery.waypoints.min.js"></script>
+  <!-- Counter Js File Link -->
+  <script src="Vendors/js/jquery.counterup.min.js"></script>
+  <!-- Mixit Up Js File -->
+  <script src="Vendors/js/mixitup.min.js"></script>
+  <!-- Custom Js File -->
+  <script src="Custom/js/main.js"></script>
+  </body>
+</html>
